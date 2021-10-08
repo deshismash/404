@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 page not found</title>
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Text Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Default margin padding  */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* body  */
+        body {
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+        /* Main Section  */
+        main {
+            background-color: #F2F3F5;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* content style  */
+        h1 {
+            font-size: 120px;
+            /* background: -webkit-linear-gradient(#cd0d7a, #601da1); */
+            background: -webkit-radial-gradient(circle, #cd0d7a 0, #601da1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* line-height: 120px; */
+        }
+
+        h2 {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 40px;
+        }
+
+        .home_page {
+            font-family: 'Source Sans Pro', sans-serif;
+            padding: 8px 20px;
+            border-radius: 50px;
+            margin-top: 50px;
+            line-height: inherit !important;
+            height: auto !important;
+            border: 1px solid #cdced1;
+            transition: .3s;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .home_page:hover {
+            border: 1px solid #cd0d7a;
+            transition: .5s;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="content">
+            <h1>404</h1>
+            <h2>PAGE NOT FOUND</h2>
+            <button class="home_page">HOME PAGE</button>
+        </div>
+    </main>
+</body>
+
+</html>
